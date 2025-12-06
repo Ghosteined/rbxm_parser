@@ -16,7 +16,7 @@ A Python library for parsing Roblox binary model files (.rbxm and .rbxl). This l
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+pip install git+https://github.com/Ghosteined/rbxm_parser.git
 ```
 
 **Requirements:**
