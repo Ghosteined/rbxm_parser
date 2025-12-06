@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="rbxm_parser",
-    version="1.0.2",
+    version="1.0.3",
     author="Ghosteined",
     author_email="ghosteined@gmail.com",
     description="A Python library for parsing Roblox binary model files (.rbxm and .rbxl)",
