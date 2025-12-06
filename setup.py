@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="rbxm_parser",
-    version="1.0.1",
-    author="Your Name",
-    author_email="your.email@example.com",
+    version="1.0.2",
+    author="Ghosteined",
+    author_email="ghosteined@gmail.com",
     description="A Python library for parsing Roblox binary model files (.rbxm and .rbxl)",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -31,7 +31,7 @@ setup(
     ],
     keywords="roblox rbxm rbxl parser binary model",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/rbxm-parser/issues",
-        "Source": "https://github.com/yourusername/rbxm-parser",
+        "Bug Reports": "https://github.com/Ghosteined/rbxm_parser/issues",
+        "Source": "https://github.com/Ghosteined/rbxm_parser",
     },
 )
