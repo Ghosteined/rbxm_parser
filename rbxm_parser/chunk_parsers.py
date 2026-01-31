@@ -297,7 +297,7 @@ class ChunkParser:
         
         elif type_id == 0x1D:  # Bytecode
             for i in range(sizeof):
-                properties[i] = BasicTypes.read_string(chunk_data).encode()
+                properties[i] = BasicTypes.read_bytes(chunk_data)
         
         elif type_id == 0x20:  # Font
             for i in range(sizeof):
