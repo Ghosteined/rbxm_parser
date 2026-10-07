@@ -87,7 +87,9 @@ def parse_rbxm_bytes(data: bytes) -> RBXM:
         b'PRNT': [],
         b'PROP': [],
         b'SIGN': [],
-        b'SSTR': []
+        b'SSTR': [],
+        b'HASH': [],
+        b'SIGU': [],
     }
     
     while True:

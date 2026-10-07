@@ -22,6 +22,12 @@ class BasicTypes:
         """Read a length-prefixed string."""
         length = buffer.read_number('<I')
         return buffer.read(length).decode('utf-8', errors='replace')
+
+    @staticmethod
+    def read_bytes(buffer: Buffer) -> bytes:
+        """Read a length-prefixed byte array."""
+        length = buffer.read_number('<I')
+        return buffer.read(length)
     
     @staticmethod
     def read_int32(buffer: Buffer) -> int:
